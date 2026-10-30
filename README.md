@@ -1,8 +1,8 @@
 # Sparein Mock API
 
-Mock API untuk [Sparein](https://github.com/Kelompok1-PBP/sparein). Isinya data suku cadang dan toko, karena belum ada Public API untuk harga suku cadang di Indonesia. Repo ini sengaja terpisah dari Sparein supaya Sparein mengonsumsinya lewat HTTP seperti API pihak ketiga.
+Mock API untuk [Sparein](https://github.com/Kelompok1-PBP/sparein). Isinya data suku cadang dan toko, karena belum ada Public API untuk harga suku cadang di Indonesia. Repo ini sengaja tidak digabung dengan Sparein supaya Sparein berinteraksi dengannya lewat HTTP seperti API pihak ketiga.
 
-**Semua data di sini fiktif.** Nama toko, harga, dan nomor kontak dibuat untuk keperluan tugas kelompok. Link toko hanya mengarah ke halaman pencarian marketplace.
+**Semua data di sini buatan.** Nama toko, harga, dan nomor kontak dibuat untuk keperluan tugas kelompok. Link toko hanya mengarah ke halaman pencarian marketplace.
 
 ## Endpoint
 
@@ -50,4 +50,4 @@ Tiap isi `sources`:
 
 Edit `v1/parts.json`, commit, lalu push ke `main`. GitHub Pages memperbarui file dalam beberapa menit.
 
-Kalau data di sini berubah, salin juga ke `parts/data/parts_snapshot.json` di repo Sparein. Salinan itu dipakai saat API tidak bisa diakses.
+Kalau data di sini berubah, salin juga ke `parts/data/parts_snapshot.json` di repo Sparein. Salinan itu akan dipakai saat API tidak bisa diakses.
